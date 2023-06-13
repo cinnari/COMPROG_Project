@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #520500;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EnhaPageController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/enhapagebg.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="fvButton" alignment="CENTER" contentDisplay="CENTER" layoutX="869.0" layoutY="231.0" mnemonicParsing="false" onAction="#fvAddToCart" prefHeight="19.0" prefWidth="77.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #C8D4D9; -fx-background-radius: 100;" text="Full Version Set" textAlignment="CENTER">
+         <font>
+            <Font name="Trebuchet MS" size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="hvButton" alignment="CENTER" contentDisplay="CENTER" layoutX="869.0" layoutY="447.0" mnemonicParsing="false" onAction="#hvAddToCart" prefHeight="19.0" prefWidth="77.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #C8D4D9; -fx-background-radius: 100;" text="Half Version Set" textAlignment="CENTER">
+         <font>
+            <Font name="Trebuchet MS" size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="nvButton" alignment="CENTER" contentDisplay="CENTER" layoutX="866.0" layoutY="668.0" mnemonicParsing="false" onAction="#fvAddToCart" prefHeight="19.0" prefWidth="84.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #C8D4D9; -fx-background-radius: 100;" text="New Version Set" textAlignment="CENTER">
+         <font>
+            <Font name="Trebuchet MS" size="9.0" />
+         </font>
+      </Button>
+      <Button fx:id="cartButton" layoutX="1080.0" layoutY="745.0" mnemonicParsing="false" onAction="#enhaCheckCart" prefHeight="19.0" prefWidth="66.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: transparent;" text=" view cart" textAlignment="RIGHT" textFill="#cecec9">
+         <font>
+            <Font name="Trebuchet MS" size="9.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="9.0" fitWidth="10.0" layoutX="1080.0" layoutY="745.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0">
+               <image>
+                  <Image url="@../images/shopping-cart.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
