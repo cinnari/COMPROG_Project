@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LesseraPageController">
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/sserapagebg.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="dewyButton" alignment="CENTER" layoutX="862.0" layoutY="225.0" mnemonicParsing="false" onAction="#dewyAddToCart" prefHeight="19.0" prefWidth="77.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #C8D4D9; -fx-background-radius: 100;" text="dewy sage">
+               <font>
+                  <Font name="Trebuchet MS" size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="dustyButton" alignment="CENTER" layoutX="862.0" layoutY="420.0" mnemonicParsing="false" onAction="#dustyAddToCart" prefHeight="19.0" prefWidth="77.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #C8D4D9; -fx-background-radius: 100;" text="dusty amber">
+               <font>
+                  <Font name="Trebuchet MS" size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="bloodyButton" alignment="CENTER" layoutX="862.0" layoutY="625.0" mnemonicParsing="false" onAction="#bloodyAddToCart" prefHeight="19.0" prefWidth="77.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #C8D4D9; -fx-background-radius: 100;" text="bloody rose">
+               <font>
+                  <Font name="Trebuchet MS" size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="sseraCartButton" layoutX="1080.0" layoutY="745.0" mnemonicParsing="false" onAction="#sseraCheckCart" prefHeight="19.0" prefWidth="74.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: transparent;" text="   view cart" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS" size="9.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="9.0" fitWidth="10.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0">
+                     <image>
+                        <Image url="@../images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></AnchorPane>
    </center>
 </BorderPane>

@@ -21,7 +21,7 @@ public class EnhaPageController {
     @FXML
     private Button nvButton;
     @FXML
-    private Button cartButton;
+    private Button enhaCartButton;
     private Stage stage;
     private Scene scene;
     private Parent root;

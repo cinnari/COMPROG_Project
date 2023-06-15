@@ -28,7 +28,7 @@
             <Font name="Trebuchet MS" size="9.0" />
          </font>
       </Button>
-      <Button fx:id="cartButton" layoutX="1080.0" layoutY="745.0" mnemonicParsing="false" onAction="#enhaCheckCart" prefHeight="19.0" prefWidth="66.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: transparent;" text=" view cart" textAlignment="RIGHT" textFill="#cecec9">
+      <Button fx:id="enhaCartButton" layoutX="1080.0" layoutY="745.0" mnemonicParsing="false" onAction="#enhaCheckCart" prefHeight="19.0" prefWidth="66.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: transparent;" text=" view cart" textAlignment="RIGHT" textFill="#cecec9">
          <font>
             <Font name="Trebuchet MS" size="9.0" />
          </font>
