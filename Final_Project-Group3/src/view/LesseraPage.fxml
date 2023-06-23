@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LesseraPageController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/le%20ssera%20page%20design%20no%20button.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="dewyButton" alignment="CENTER" layoutX="898.0" layoutY="277.0" mnemonicParsing="false" onAction="#buy" prefHeight="15.0" prefWidth="116.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #FEF4E8;" text="Dewy Version Set">
+               <font>
+                  <Font name="Trebuchet MS" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="dustyButton" alignment="CENTER" layoutX="897.0" layoutY="479.0" mnemonicParsing="false" onAction="#buy" prefHeight="15.0" prefWidth="117.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #FEF4E8;" text="Dusty Amber Version Set">
+               <font>
+                  <Font name="Trebuchet MS" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="bloodyButton" alignment="CENTER" layoutX="896.0" layoutY="686.0" mnemonicParsing="false" onAction="#buy" prefHeight="15.0" prefWidth="117.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #FEF4E8;" text="Bloody Version Set">
+               <font>
+                  <Font name="Trebuchet MS" size="8.0" />
+               </font>
+            </Button>
+            <Button fx:id="sseracartbtn" layoutX="1030.0" layoutY="65.0" mnemonicParsing="false" onAction="#sseraCartBtn" prefHeight="19.0" prefWidth="67.0" scaleX="2.0" scaleY="2.0" style="-fx-background-color: #1A1831;" text="view cart" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS" size="9.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="11.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/shopping-cart.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="gotoEnhypenPage" layoutX="853.0" layoutY="55.0" mnemonicParsing="false" onAction="#gotoEnhaPage" prefHeight="40.0" prefWidth="131.0" style="-fx-background-color: #1A1831;" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS" size="9.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="49.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/to%20enhypen%20page%20button.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Pane layoutX="770.0" layoutY="105.0" prefHeight="164.0" prefWidth="372.0" style="-fx-background-color: #520500;">
+               <children>
+                  <ImageView fx:id="sseraimg1" fitHeight="83.0" fitWidth="323.0" layoutX="41.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/lessera1.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="sseraname1" layoutX="67.0" layoutY="105.0" prefHeight="19.0" prefWidth="259.0" text="LE SERRAFIM UNFORGIVEN PHOTOCARD" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sseraprice1" layoutX="179.0" layoutY="141.0" prefHeight="19.0" prefWidth="35.0" text="1500" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sseraset1" layoutX="157.0" layoutY="124.0" prefHeight="19.0" prefWidth="79.0" text="(DEWY SET)" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sserapeso1" layoutX="167.0" layoutY="141.0" text="₱ " textFill="#fafafa">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="749.0" layoutY="307.0" prefHeight="163.0" prefWidth="381.0" style="-fx-background-color: #520500;">
+               <children>
+                  <ImageView fx:id="sseraimg2" fitHeight="91.0" fitWidth="291.0" layoutX="59.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/lessera2.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="sseraname2" layoutX="70.0" layoutY="101.0" prefHeight="19.0" prefWidth="259.0" text="LE SERRAFIM UNFORGIVEN PHOTOCARD" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sseraprice2" layoutX="187.0" layoutY="140.0" prefHeight="19.0" prefWidth="35.0" text="1500" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sseraset2" layoutX="138.0" layoutY="120.0" prefHeight="19.0" prefWidth="134.0" text="(DUSTY AMBER SET)" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sserapeso2" layoutX="175.0" layoutY="140.0" text="₱ " textFill="#fafafa">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="768.0" layoutY="520.0" prefHeight="149.0" prefWidth="375.0" style="-fx-background-color: #520500;">
+               <children>
+                  <Label fx:id="sseraname3" layoutX="65.0" layoutY="92.0" prefHeight="19.0" prefWidth="259.0" text="LE SERRAFIM UNFORGIVEN PHOTOCARD" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sseraprice3" layoutX="177.0" layoutY="130.0" prefHeight="19.0" prefWidth="35.0" text="1300" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sseraset3" layoutX="142.0" layoutY="111.0" prefHeight="19.0" prefWidth="95.0" text="(BLOODY SET)" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sserapeso3" layoutX="165.0" layoutY="130.0" text="₱ " textFill="#fafafa">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="sseraimg3" fitHeight="129.0" fitWidth="338.0" layoutX="25.0" layoutY="-18.0">
+                     <image>
+                        <Image url="@../../../../Downloads/OOP%20Final%20Project%20Layout-PhotoRoom.png-PhotoRoom.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children></AnchorPane>
+   </center>
+</BorderPane>
